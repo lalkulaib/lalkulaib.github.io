@@ -3,7 +3,8 @@
 title: Lulwah AlKulaib
 
 # Name pronunciation (optional)
-name_pronunciation: لولوه الكليب
+name_pronunciation: ''
+#لولوه الكليب
 
 # Full name (for SEO)
 first_name: Lulwah
@@ -56,7 +57,7 @@ interests:
 education:
   - area: PhD in Computer Science
     institution: Virginia Tech
-    institution: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
+    text: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
     date_start: 2018-08-23
     date_end: 2024-02-16
    # summary: |
@@ -87,28 +88,64 @@ education:
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
       #- lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Assistant Professor
+    company_name: Kuwait University
+    company_url: https://www.cs.ku.edu.kw/
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-04-24
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      Assistant Professor in the Computer Science Department.
+  - position: Teaching Assistant
+    company_name: Kuwait University
+    company_url: https://www.cs.ku.edu.kw/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2018-08-01
+    date_end: 2024-04-23
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Computer Science Teaching Assistant on a scholarship as a PhD candidate at Virginia Tech.
+  - position: Research Intern
+    company_name: Stanford Muslim Mental Health and Islamic Psychology Lab
+    company_url: https://med.stanford.edu/mmhip.html
+    company_logo: ''
+    date_start: 2023-08-21
+    date_end: ''
+    summary: |
+      As a research intern on the Suicide Response Team, I play a role in performing data analysis for multiple research projects. My responsibilities are centered on extracting insights from complex datasets to support the team's objectives in developing evedince-based conclusions for our research.
+  - position: Graduate Teaching Assistant
+    company_name: Virginia Tech
+    company_url: https://www.nvc.vt.edu/
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: 2023-12-20
+    summary: |
+      In the Fall semester of 2023, I served as a Graduate Teaching Assistant for a Web Application Development class, where I provided academic support through dedicated office hours for student inquiries. My responsibilities also included the grading of assignments, ensuring timely and constructive feedback.
+  - position: Summer Intern
+    company_name: BEM Controls, Advanced Research Institute – Virginia Tech
+    company_url: https://www.bemcontrols.com/
+    company_logo: ''
+    date_start: 2017-05-01
+    date_end: 2017-08-31
+    summary: |
+      During my MSc at GWU, I completed a three-month internship at BEM Controls in Summer 2017, where I developed a cross-platform mobile application for energy management using React Native, compatible with both iOS and Android systems.
+  - position: Programmer
+    company_name: Kuwait Institute for Scientific Research (KISR)
+    company_url: https://www.kisr.edu.kw/en/
+    company_logo: ''
+    date_start: 2012-09-10
+    date_end: 2018-07-31
+    summary: |
+      In my role as a programmer within the Technology Applications for Special Needs Section, I collaborated with a team to deliver technical support and develop tailored software solutions for individuals with disabilities, including creating Arabic interfaces and integrating specialized hardware. Our work involved thorough research and showcased our results in publications.
+  - position: Trainee
+    company_name: Public Institution for Social Security (PIFSS)
+    company_url: https://www.pifss.gov.kw/sites/En/Pages/Home.aspx
+    company_logo: ''
+    date_start: 2012-01-09
+    date_end: 2012-09-01
+    summary: |
+      As a recent graduate, I was selected for the Kuwaiti IBM Workforce Development Initiative at the Public Institution for Social Security, where I honed my skills in web and mobile development under the mentorship of IBM professionals and contributed to the development and deployment of the PIFSS mail and document tracking system.
+  
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -186,4 +223,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assistant Professor in the [Computer Science Department](https://www.cs.ku.edu.kw/) at [Kuwait University](https://www.ku.edu.kw/). My research focuses on developing innovative models with practical applications in social media analytics, the study of low-resource languages, and public health initiatives. My work integrates my extensive experience in various research roles with my interest in Natural Language Processing, Machine Learning, and Deep Learning. I am dedicated to advancing these fields by creating robust algorithms that effectively navigate and interpret the complexities of human language and behavior.
