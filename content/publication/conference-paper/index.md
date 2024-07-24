@@ -40,7 +40,7 @@ tags:
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
+links:
  - name: NYT Article
    url: https://www.nytimes.com/2018/08/23/health/russian-trolls-vaccines.html
 

@@ -28,7 +28,7 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: Article Link
   url: https://news.vt.edu/articles/2023/01/sanghani-center-research-takes-new-multi-labeling-approach-to-an.html
 #url_pdf: http://arxiv.org/pdf/1512.04133v1
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
