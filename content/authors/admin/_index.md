@@ -1,9 +1,9 @@
 ---
 # Display name
-title: لولوه الكليب
+title: Lulwah AlKulaib
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: لولوه الكليب
 
 # Full name (for SEO)
 first_name: Lulwah
@@ -50,39 +50,42 @@ interests:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
+  - Social Network Analysis
+  - Behavioral Modeling
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: PhD in Computer Science
+    institution: Virginia Tech
+    institution: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
+    date_start: 2018-08-23
+    date_end: 2024-02-16
+   # summary: |
+    #  Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    #button:
+     # text: 'Read Thesis'
+      #url: 'https://example.com'
+  - area: MSc in Computer Science
+    institution: George Washington University
+    date_start: 2016-08-21
+    date_end: 2018-05-15
+    #summary: |
+     # GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+     # Courses included:
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc in Computer Science
+    institution: Gulf University for Science and Technology
+    date_start: 2006-09-01
+    date_end: 2011-05-31
+   # summary: |
+    #  GPA: 3.4/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+     # Courses included:
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
+      #- lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
