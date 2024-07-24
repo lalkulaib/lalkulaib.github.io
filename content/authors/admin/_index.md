@@ -57,7 +57,7 @@ interests:
 education:
   - area: PhD in Computer Science
     institution: Virginia Tech
-    text: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
+    description: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
     date_start: 2018-08-23
     date_end: 2024-02-16
    # summary: |
@@ -164,22 +164,22 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  #- name: Hobbies
+  #  color: '#eeac02'
+  #  color_border: '#f0bf23'
+  #  items:
+  #    - name: Hiking
+  #      description: ''
+  #      percent: 60
+  #      icon: person-simple-walk
+  #    - name: Board Games
+  #      description: ''
+  #      percent: 100
+  #      icon: card
+  #    - name: Photography
+  #      description: ''
+  #      percent: 80
+  #      icon: camera
 
 languages:
   - name: English
