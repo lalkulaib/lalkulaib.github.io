@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am an Assistant Professor in the Computer Science Department at Kuwait University. My research focuses on developing innovative models with practical applications in social media analytics, low-resource languages, and public health. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply a range of qualitative and quantitative methods to investigate the efficacy of graph-based models in behavioral modeling.
         
         Please reach out to collaborate 😃
     design:
