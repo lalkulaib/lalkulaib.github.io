@@ -60,7 +60,7 @@ education:
     date_start: 2018-08-23
     date_end: 2024-02-16
     summary: |
-      Advised by Prof. Chang-Tien Lu.(https://people.cs.vt.edu/~ctlu/)
+      Advised by <a href="https://people.cs.vt.edu/~ctlu/">Prof. Chang-Tien Lu.</a>
   - area: MSc in Computer Science
     institution: George Washington University
     date_start: 2016-08-21
