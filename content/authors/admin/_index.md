@@ -56,8 +56,8 @@ interests:
 
 education:
   - area: PhD in Computer Science
-    institution: Virginia Tech
-    text: Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
+    institution: Virginia Tech 
+    Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
     date_start: 2018-08-23
     date_end: 2024-02-16
    # summary: |
