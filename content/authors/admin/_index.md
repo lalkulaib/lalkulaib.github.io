@@ -56,17 +56,11 @@ interests:
 
 education:
   - area: PhD in Computer Science
-    institution: |
-      Virginia Tech 
-      
-      Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
+    institution: Virginia Tech 
     date_start: 2018-08-23
     date_end: 2024-02-16
-   # summary: |
-    #  Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    #button:
-     # text: 'Read Thesis'
-      #url: 'https://example.com'
+    summary: |
+      Advised by [Prof. Chang-Tien Lu](https://people.cs.vt.edu/~ctlu/)
   - area: MSc in Computer Science
     institution: George Washington University
     date_start: 2016-08-21
