@@ -35,9 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am an Assistant Professor in the Computer Science Department at Kuwait University. My research focuses on developing innovative models with practical applications in social media analytics, low-resource languages, and public health. 
-
-        I apply a range of qualitative and quantitative methods to investigate the efficacy of graph-based models in behavioral modeling.
+        I am an Assistant Professor in the Computer Science Department at Kuwait University. My research concentrates on designing novel frameworks with real-world applications in social media analytics, low-resource languages, and public health. I apply a range of qualitative and quantitative methods to investigate the efficacy of graph-based models in behavioral modeling.
         
         Please reach out to collaborate 😃
     design:
