@@ -22,14 +22,9 @@ highlight_name: true
 
 # Role/position/tagline
 role: Assistant Professor
-
-#Department
-department:
-  name: Computer Science
-  url: https://www.cs.ku.edu.kw/
-
-# Office location
-office_location: College of Science, South Building, Second Floor, Office 149
+description: |
+        **Department**: Computer Science  
+        **Office Location**: College of Science, South Building, Second Floor, Office 149
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
