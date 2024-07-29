@@ -22,13 +22,14 @@ highlight_name: true
 
 # Role/position/tagline
 role: Assistant Professor
+
 #Department
-department: 
-  - name: Computer Science
+content: 
+  - title: Computer Science
     url: https://www.cs.ku.edu.kw/
 
 #Office location
-location: College of Science, South Building, Second Floor, Office 149
+content: College of Science, South Building, Second Floor, Office 149
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Kuwait University
