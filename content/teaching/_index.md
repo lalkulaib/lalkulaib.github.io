@@ -34,4 +34,4 @@ This undergraduate-level course focuses on advancing students' understanding of 
 
 Discrete Mathematics is a foundational undergraduate-level course that equips students with the mathematical tools and logical reasoning skills necessary for computer science. The course introduces concepts such as sets, relations, functions, propositional and predicate logic, combinatorics, graph theory, and number theory. Students learn how to apply these principles to solve problems in algorithms, data structures, cryptography, network design, and database systems. Emphasis is placed on understanding mathematical proofs, including induction and contradiction, as well as developing the ability to model real-world problems using discrete structures. This course bridges the gap between theoretical mathematics and practical applications in computing.
 
-
+---
