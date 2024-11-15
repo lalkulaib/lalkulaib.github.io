@@ -10,7 +10,7 @@ sections:
   - block: markdown
     content:
       title: '📚 My Teaching'
-      subtitle: 'Courses I have taught at Kuwait University'
+      subtitle: '2024-2025 at Kuwait University'
       text: |-
         **CS 497 - Topics in Computer Science II**  
         *Topics in Computer Science*  
