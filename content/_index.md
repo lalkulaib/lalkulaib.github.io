@@ -67,16 +67,16 @@ sections:
       view: citation
 
 # --- News ---
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - events
-        exclude_featured: false
-    design:
-      view: citation
+ # - block: collection
+  #  id: news
+   # content:
+    #  title: Recent News
+     # subtitle: ''
+      #text: ''
+      #filters:
+       # folders:
+        #  - events
+        #exclude_featured: false
+    #design:
+     # view: citation
 ---
