@@ -36,41 +36,41 @@ sections:
       text: |-
         I'm an Assistant Professor of Computer Science at Kuwait University. My research focuses on developing innovative models with practical applications in social media analytics, behavioral modeling, and public health.
         
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of graph-based models and Deep Learning in understanding and interpreting the complexities of human language and online behavior, with a specific interest in low-resource languages.
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of graph-based models and Deep Learning in understanding and interpreting the complexities of human language and online behavior, with a specific interest in Arabic NLP and low-resource languages.
 
         Please reach out to collaborate 😃
     design:
       columns: '1'
- # --- Papers (Featured) ---
-- block: collection
-  id: papers
-  content:
-    title: Featured Publications
-    page_type: publication
-    featured_only: true
-  design:
-    view: article-grid
-    columns: 2
+      # --- Featured ---
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
 
 # --- Recent Publications (All) ---
-- block: collection
-  id: recent-pubs
-  content:
-    title: Recent Publications
-    page_type: publication
-    exclude_featured: false
-  design:
-    view: citation
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
 
 # --- News ---
-- block: collection
-  id: news
-  content:
-    title: Recent News
-    page_type: post
-    # optional: avoid any chance of pubs leaking in
-    exclude_featured: true
-  # design:
-  #   view: card
-
+  - block: collection
+    id: news
+    content:
+      title: Recent News
+      subtitle: ''
+      text: ''
 ---
