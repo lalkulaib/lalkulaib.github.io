@@ -189,7 +189,7 @@ awards:
     awarder: ASONAM
     icon: hero/trophy
     summary: |
-      Awarded for best paper in the Industrial Track.
+      Awarded "TrendScope: A Temporal Hypergraph Framework for Food Trend Discovery" as the best paper in the Industrial Track.
   - title: Best Paper Award
     url: https://asonam.cpsc.ucalgary.ca/
     date: '2022-08-15'
