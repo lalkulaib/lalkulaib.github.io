@@ -175,8 +175,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Arabic
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -184,26 +184,20 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+    url: https://asonam.cpsc.ucalgary.ca/2025/
+    date: '2025-08-26'
+    awarder: ASONAM
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Awarded for best paper in the Industrial Track.
+  - title: Best Paper Award
+    url: https://asonam.cpsc.ucalgary.ca/
+    date: '2023-08-15'
+    awarder: ASONAM
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+     Awarded for best paper.
+
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+ I am an Assistant Professor in the [Computer Science Department](https://www.cs.ku.edu.kw/) at [Kuwait University](https://www.ku.edu.kw/). My research focuses on developing innovative models with practical applications in social media analytics, the study of low-resource languages, and public health initiatives. My work integrates my extensive experience in various research roles with my interest in Natural Language Processing, Machine Learning, and Deep Learning. I am dedicated to advancing these fields by creating robust algorithms that effectively navigate and interpret the complexities of human language and behavior.
