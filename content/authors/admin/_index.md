@@ -27,8 +27,8 @@ role: Assistant Professor
 organizations:
  - name: Kuwait University
     url:  url: https://www.ku.edu.kw/
-  - description: |
-      College of Science 
+ # - description: |
+  #    College of Science 
       #Computer Science Department
      # South Building, Second Floor, Office 149
 
