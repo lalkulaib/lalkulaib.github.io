@@ -27,21 +27,16 @@ role: Assistant Professor
 organizations:
   - name: Kuwait University
     url: https://www.ku.edu.kw/
-    #- description: |
-   #   College of Science 
-      #Computer Science Department
-     # South Building, Second Floor, Office 149
+    
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-   - icon: at-symbol
+  - icon: at-symbol
     url: 'mailto:lalkulaib@cs.ku.edu.kw'
     label: E-mail Me
-  #- icon: brands/x
-  #  url: https://twitter.com/GetResearchDev
-  #- icon: brands/instagram
-  #  url: https://www.instagram.com/
+ # - icon: brands/x
+  #  url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/lalkulaib
   - icon: brands/linkedin
