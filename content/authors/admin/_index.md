@@ -170,7 +170,7 @@ skills:
       - name: Biking
         description: ''
         percent: 70
-        icon: bike
+        icon: icons/custom/bike
 
 languages:
   - name: English
