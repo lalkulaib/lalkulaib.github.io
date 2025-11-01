@@ -41,31 +41,36 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+ # --- Papers (Featured) ---
+- block: collection
+  id: papers
+  content:
+    title: Featured Publications
+    page_type: publication
+    featured_only: true
+  design:
+    view: article-grid
+    columns: 2
+
+# --- Recent Publications (All) ---
+- block: collection
+  id: recent-pubs
+  content:
+    title: Recent Publications
+    page_type: publication
+    exclude_featured: false
+  design:
+    view: citation
+
+# --- News ---
+- block: collection
+  id: news
+  content:
+    title: Recent News
+    page_type: post
+    # optional: avoid any chance of pubs leaking in
+    exclude_featured: true
+  # design:
+  #   view: card
+
 ---
