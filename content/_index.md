@@ -62,15 +62,15 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+  #- block: collection
+   # id: talks
+    #content:
+     # title: Recent & Upcoming Talks
+      #filters:
+       # folders:
+        #  - events
+    #design:
+     # view: card
   - block: collection
     id: news
     content:
@@ -78,22 +78,22 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+     # page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      #count: 5
       # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
+      #filters:
+       # author: ''
+        #category: ''
+        #tag: ''
+        #exclude_featured: false
+        #exclude_future: false
+        #exclude_past: false
+        #publication_type: ''
       # Choose how many pages you would like to offset by
-      offset: 0
+      #offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      #order: desc
     design:
       # Choose a layout view
       view: card
