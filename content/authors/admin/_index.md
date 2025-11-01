@@ -3,7 +3,7 @@
 title: Lulwah AlKulaib
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: 'لولوه الكليب'
 #لولوه الكليب
 
 # Full name (for SEO)
