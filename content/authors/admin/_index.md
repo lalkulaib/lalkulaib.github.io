@@ -47,40 +47,37 @@ profiles:
     url: https://orcid.org/0000-0001-9827-0882
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Behavioral Modeling
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD in Computer Science and Applications 
+    institution: Virginia Tech
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2018-08-23
+    date_end: 2024-02-16
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Advised by <a href="https://people.cs.vt.edu/~ctlu/">Prof. Chang-Tien Lu.</a>
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      text: 'Read Dissertation'
+      url: 'https://hdl.handle.net/10919/118611'
+  - area: MSc in Computer Science
+    institution: George Washington University
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+    date_start: 2016-08-21
+    date_end: 2018-05-15
+     #summary: |
+     # GPA: 3.8/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      #Specialized in machine learning.
+  - area: BSc in Computer Science
+    institution: Gulf University for Science and Technology
+    date_start: 2006-09-01
+    date_end: 2011-05-31
+   # summary: |
+    #  GPA: 3.4/4.0
+     # Minored in Mathematics. President of AI Club.
 
 work:
   - position: Senior AI Research Scientist
