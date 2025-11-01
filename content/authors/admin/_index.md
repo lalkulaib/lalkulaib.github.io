@@ -80,22 +80,63 @@ education:
      # Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
+  - position: Assistant Professor
+    company_name: Kuwait University
+    company_url: https://www.cs.ku.edu.kw/
+    company_logo: ''
+    date_start: 2024-04-24
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+      Assistant Professor in the Computer Science Department.
+  - position: Teaching Assistant
+    company_name: Kuwait University
+    company_url: https://www.cs.ku.edu.kw/
+    company_logo: ''
+    date_start: 2018-08-01
+    date_end: 2024-04-23
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Computer Science Teaching Assistant on a scholarship as a PhD candidate at Virginia Tech.
+  - position: Research Intern
+    company_name: Stanford Muslim Mental Health and Islamic Psychology Lab
+    company_url: https://med.stanford.edu/mmhip.html
+    company_logo: ''
+    date_start: 2023-08-21
+    date_end: ''
+    summary: |
+      As a research intern on the Suicide Response Team, I play a role in performing data analysis for multiple research projects. My responsibilities are centered on extracting insights from complex datasets to support the team's objectives in developing evedince-based conclusions for our research.
+  - position: Graduate Teaching Assistant
+    company_name: Virginia Tech
+    company_url: https://www.nvc.vt.edu/
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: 2023-12-20
+    summary: |
+      In the Fall semester of 2023, I served as a Graduate Teaching Assistant for a Web Application Development class, where I provided academic support through dedicated office hours for student inquiries. My responsibilities also included the grading of assignments, ensuring timely and constructive feedback.
+  - position: Summer Intern
+    company_name: BEM Controls, Advanced Research Institute – Virginia Tech
+    company_url: https://www.bemcontrols.com/
+    company_logo: ''
+    date_start: 2017-05-01
+    date_end: 2017-08-31
+    summary: |
+      During my MSc at GWU, I completed a three-month internship at BEM Controls in Summer 2017, where I developed a cross-platform mobile application for energy management using React Native, compatible with both iOS and Android systems.
+  - position: Programmer
+    company_name: Kuwait Institute for Scientific Research (KISR)
+    company_url: https://www.kisr.edu.kw/en/
+    company_logo: ''
+    date_start: 2012-09-10
+    date_end: 2018-07-31
+    summary: |
+      In my role as a programmer within the Technology Applications for Special Needs Section, I collaborated with a team to deliver technical support and develop tailored software solutions for individuals with disabilities, including creating Arabic interfaces and integrating specialized hardware. Our work involved thorough research and showcased our results in publications.
+  - position: Trainee
+    company_name: Public Institution for Social Security (PIFSS)
+    company_url: https://www.pifss.gov.kw/sites/En/Pages/Home.aspx
+    company_logo: ''
+    date_start: 2012-01-09
+    date_end: 2012-09-01
+    summary: |
+      As a recent graduate, I was selected for the Kuwaiti IBM Workforce Development Initiative at the Public Institution for Social Security, where I honed my skills in web and mobile development under the mentorship of IBM professionals and contributed to the development and deployment of the PIFSS mail and document tracking system.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
