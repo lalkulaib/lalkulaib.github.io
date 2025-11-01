@@ -170,7 +170,7 @@ skills:
       - name: Biking
         description: ''
         percent: 70
-        icon: icons/custom/bike.png
+        icon: assets/media/icons/custom/bike.png
 
 languages:
   - name: English
@@ -192,11 +192,11 @@ awards:
       Awarded for best paper in the Industrial Track.
   - title: Best Paper Award
     url: https://asonam.cpsc.ucalgary.ca/
-    date: '2023-08-15'
+    date: '2022-08-15'
     awarder: ASONAM
     icon: hero/trophy
     summary: |
-     Awarded for best paper.
+     "Predicting Depression and Anxiety on Reddit: a Multi-task Learning Approach" awarded best paper in the track.
 
 ---
 
