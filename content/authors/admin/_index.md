@@ -21,12 +21,16 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+ - name: Kuwait University
+    url:  url: https://www.ku.edu.kw/
+  - description: |
+      College of Science 
+      #Computer Science Department
+     # South Building, Second Floor, Office 149
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
