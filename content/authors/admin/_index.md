@@ -25,12 +25,8 @@ role: Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
- - name: Kuwait University
-    url:  url: https://www.ku.edu.kw/
- # - description: |
-  #    College of Science 
-      #Computer Science Department
-     # South Building, Second Floor, Office 149
+  - name: Kuwait University
+    url: https://www.ku.edu.kw/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
