@@ -1,6 +1,8 @@
 ---
 # Display name
-title: Lulwah AlKulaib لولوه الكليب
+title: Lulwah AlKulaib
+ لولوه الكليب
+
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -101,9 +103,9 @@ work:
     company_url: https://med.stanford.edu/mmhip.html
     company_logo: ''
     date_start: 2023-08-21
-    date_end: ''
+    date_end: '2025-05-15'
     summary: |
-      As a research intern on the Suicide Response Team, I play a role in performing data analysis for multiple research projects. My responsibilities are centered on extracting insights from complex datasets to support the team's objectives in developing evedince-based conclusions for our research.
+      As a research intern on the Suicide Response Team, I played a role in performing data analysis for multiple research projects. My responsibilities were centered on extracting insights from complex datasets to support the team's objectives in developing evedince-based conclusions for our research.
   - position: Graduate Teaching Assistant
     company_name: Virginia Tech
     company_url: https://www.nvc.vt.edu/
