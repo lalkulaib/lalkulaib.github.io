@@ -48,7 +48,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publications
+          - publication
         featured_only: true
     design:
       view: article-grid
@@ -61,7 +61,7 @@ sections:
       text: ''
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: false
     design:
       view: citation
