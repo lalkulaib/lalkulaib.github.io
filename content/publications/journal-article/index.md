@@ -30,7 +30,7 @@ featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    doi: 10.2105/AJPH.2018.304567
 
 links:
   - type: source
