@@ -21,7 +21,7 @@ publishDate: '2023-02-06T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['News-coverage']
+publication_types: ['news-coverage']
 
 # Publication name and optional abbreviated publication name.
 publication: In VT News
