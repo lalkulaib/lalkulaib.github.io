@@ -73,4 +73,10 @@ sections:
       title: Recent News
       subtitle: ''
       text: ''
+      filters:
+        folders:
+          - events
+        exclude_featured: false
+    design:
+      view: citation
 ---
