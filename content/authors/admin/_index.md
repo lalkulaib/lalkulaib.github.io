@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Lulwah AlKulaib
+title: Lulwah AlKulaib لولوه الكليب
 
 # Name pronunciation (optional)
-name_pronunciation: 'لولوه الكليب'
+name_pronunciation: ''
 #لولوه الكليب
 
 # Full name (for SEO)
