@@ -27,27 +27,29 @@ role: Assistant Professor
 organizations:
   - name: Kuwait University
     url: https://www.ku.edu.kw/
-    - description: |
-      College of Science 
+    #- description: |
+   #   College of Science 
       #Computer Science Department
      # South Building, Second Floor, Office 149
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+   - icon: at-symbol
+    url: 'mailto:lalkulaib@cs.ku.edu.kw'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/lalkulaib
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/lalkulaib/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?hl=en&user=QaVvPuwAAAAJ&inst=13410158990364976897
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-9827-0882
 
 interests:
   - Large Language Models
