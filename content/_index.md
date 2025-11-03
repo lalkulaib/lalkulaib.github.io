@@ -72,15 +72,32 @@ sections:
       title: '💼 Service'
       subtitle: ''
       text: |-
-         - **Program Committee Member**, IEEE Big Data MLBD 2024,   MLBD 2025
-         - **Program Committee Member**, IEEE Big Data MLBD 2024,   MLBD 2025
-         - **Session Co-Chair**, IEEE Big Data 2024 AI4Science, ASONAM 2025 PhD Track Program Committee, ASONAM 2026 PhD Track Program Committee   
-         - **Reviewer**, EMNLP (2021–2024), IEEE Big Data (2021–2025), ASONAM (2023–2026)  
-         - **Reviewer**, ACM TALLIP, ACM TAKDD, Frontiers in Big Data, Frontiers in AI
-         - **Volunteer**, PAKDD 2021 Virtual Conference Coordination 
+         - **Program Committee Member** IEEE Big Data MLBD 2024, MLBD 2025
+         - **Program Committee Member** IEEE Big Data MLBD 2024, MLBD 2025
+         - **Session Co-Chair** IEEE Big Data 2024 AI4Science, ASONAM 2025 PhD Track Program Committee, ASONAM 2026 PhD Track Program Committee   
+         - **Conference Reviewer** EMNLP (2021–2024), IEEE Big Data (2021–2025), ASONAM (2023–2026)  
+         - **Journal Reviewer** ACM TALLIP, ACM TAKDD, Frontiers in Big Data, Frontiers in AI
+         - **Volunteer** PAKDD 2021 Virtual Conference Coordination 
     design:
       columns: '1'
 
+
+#📖
+# --- Courses ---
+  - block: markdown
+    content:
+      title: '📖 Teaching'
+      subtitle: ''
+      text: |-
+         - **📗 Discrete Math** 
+         - **📘 Data Mining** 
+         - **📘 Artificial intelligence**    
+         - **📘 Information Visualization**   
+         - **📗 Introduction to Python** 
+       #  - **📘 Machine Learning** 
+       #  - **📙 Algorithm Design and Analysis**
+    design:
+      columns: '1'
 # --- News ---
  # - block: collection
   #  id: news
