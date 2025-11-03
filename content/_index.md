@@ -65,6 +65,19 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  
+  - block: markdown
+    content:
+      title: '📚 Service'
+      subtitle: ''
+      text: |-
+        I'm an Assistant Professor of Computer Science at Kuwait University. My research focuses on developing innovative models with practical applications in social media analytics, behavioral modeling, and public health.
+        
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of graph-based models and Deep Learning in understanding and interpreting the complexities of human language and online behavior, with a specific interest in low-resource languages.
+
+        Please reach out to collaborate 😃
+    design:
+      columns: '1'
 
 # --- News ---
  # - block: collection
