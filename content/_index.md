@@ -78,6 +78,7 @@ sections:
          - **Conference Reviewer** EMNLP (2021–2024), IEEE Big Data (2021–2025), ASONAM (2023–2026)  
          - **Journal Reviewer** ACM TALLIP, ACM TAKDD, Frontiers in Big Data, Frontiers in AI
          - **Volunteer** PAKDD 2021 Virtual Conference Coordination 
+        # REPHRASE - **Workshop** Given to Kuwait Ministry of Commerce and Industry Artificial intelligence for innovation and quality of government services
     design:
       columns: '1'
 
