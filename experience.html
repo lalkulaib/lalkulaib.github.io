@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./cv-embed.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'DM Sans',sans-serif;background:#ffffff;color:#0A2342;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+    ::selection{background:#0A2342;color:#fff}
+    a{color:#2f4d84}
+    a:hover{color:#0A2342}
+  </style>
+</helmet>
+
+<div style="width:100%;overflow-x:hidden">
+
+  <!-- NAV -->
+  <nav style="position:sticky;top:0;z-index:200;background:rgba(255,255,255,0.92);backdrop-filter:blur(10px);border-bottom:1px solid #e4e9f4;height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4vw,56px)">
+    <a href="{{ homeHref }}" style="display:flex;align-items:center;gap:11px;text-decoration:none">
+      <span style="width:34px;height:34px;border-radius:50%;background:#0A2342;color:#fff;display:flex;align-items:center;justify-content:center;font-family:'EB Garamond',serif;font-size:1rem">LA</span>
+      <span style="font-family:'EB Garamond',serif;font-size:1.12rem;font-weight:500;color:#0A2342">Lulwah AlKulaib</span>
+    </a>
+    <a href="{{ homeHref }}" style="text-decoration:none;color:#5a6a8f;font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase">← Back to home</a>
+  </nav>
+
+  <!-- HEADER -->
+  <header style="max-width:1080px;margin:0 auto;padding:clamp(36px,5vw,60px) clamp(20px,4vw,56px) clamp(20px,3vw,32px)">
+    <p style="font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:#7386ac;margin-bottom:12px">Curriculum Vitae</p>
+    <h1 style="font-family:'EB Garamond',serif;font-size:clamp(2.2rem,4.4vw,3.2rem);font-weight:500;line-height:1.04;color:#0A2342;letter-spacing:-0.01em">Experience</h1>
+  </header>
+
+  <!-- EDUCATION (full width, above the two columns) -->
+  <section style="max-width:1080px;margin:0 auto;padding:0 clamp(20px,4vw,56px) clamp(28px,3.5vw,44px)">
+    <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Education</p>
+    <div style="display:flex;flex-direction:column">
+      <sc-for list="{{ education }}" as="e" hint-placeholder-count="3">
+        <div style="display:grid;grid-template-columns:1fr auto;gap:20px;align-items:baseline;padding:16px 0;border-bottom:1px solid #eef2f8">
+          <div style="min-width:0">
+            <h4 style="font-family:'EB Garamond',serif;font-size:1.2rem;font-weight:500;color:#0A2342;line-height:1.25">{{ e.degree }}</h4>
+            <p style="font-size:0.92rem;color:#2f4d84;font-weight:500;margin-top:2px">{{ e.school }}</p>
+            <sc-if value="{{ e.hasAdvisor }}" hint-placeholder-val="{{ false }}">
+              <p style="font-size:0.84rem;color:#5a6a8f;margin-top:6px">Advised by <a href="{{ e.advisorUrl }}" target="_blank" style="text-decoration:none;border-bottom:1px solid #cfd8ec">{{ e.advisor }}</a></p>
+            </sc-if>
+            <sc-if value="{{ e.hasDissertation }}" hint-placeholder-val="{{ false }}">
+              <a href="{{ e.dissertation }}" target="_blank" style="display:inline-block;margin-top:4px;font-family:'DM Mono',monospace;font-size:0.7rem;color:#2f4d84;text-decoration:none;border-bottom:1px solid #cfd8ec">Read dissertation →</a>
+            </sc-if>
+          </div>
+          <p style="font-family:'DM Mono',monospace;font-size:0.72rem;color:#8794b4;white-space:nowrap;padding-top:4px">{{ e.dates }}</p>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE (full width) -->
+  <section style="max-width:1080px;margin:0 auto;padding:0 clamp(20px,4vw,56px) clamp(36px,4vw,52px)">
+      <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:22px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Professional experience</p>
+      <div style="display:flex;flex-direction:column">
+        <sc-for list="{{ experience }}" as="x" hint-placeholder-count="7">
+          <div style="display:grid;grid-template-columns:132px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid #eef2f8">
+            <div style="padding-top:3px">
+              <p style="font-family:'DM Mono',monospace;font-size:0.72rem;color:#8794b4;line-height:1.4">{{ x.dates }}</p>
+            </div>
+            <div style="min-width:0;position:relative;padding-left:22px;border-left:2px solid #e4e9f4">
+              <span style="position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;background:#0A2342"></span>
+              <h3 style="font-family:'EB Garamond',serif;font-size:1.28rem;font-weight:500;color:#0A2342;line-height:1.2">{{ x.role }}</h3>
+              <p style="font-size:0.9rem;color:#2f4d84;font-weight:500;margin-bottom:6px">{{ x.org }}</p>
+              <p style="font-size:0.9rem;color:#5a6a8f;line-height:1.6">{{ x.detail }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+  </section>
+
+  <!-- AWARDS · SKILLS · LANGUAGES (full width) -->
+  <section style="max-width:1080px;margin:0 auto;padding:0 clamp(20px,4vw,56px) clamp(56px,7vw,80px);display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(32px,4vw,52px);align-items:start">
+      <!-- AWARDS -->
+      <div>
+        <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Awards &amp; honors</p>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <sc-for list="{{ awards }}" as="a" hint-placeholder-count="2">
+            <div style="background:#f6f8fc;border:1px solid #e4e9f4;border-radius:4px;padding:16px 18px">
+              <div style="display:flex;align-items:baseline;gap:8px">
+                <span style="flex:none;font-size:0.95rem;color:#c9a227;line-height:1">★</span>
+                <h4 style="font-family:'EB Garamond',serif;font-size:1.1rem;font-weight:500;color:#0A2342;line-height:1.2">{{ a.title }}</h4>
+              </div>
+              <p style="font-family:'DM Mono',monospace;font-size:0.68rem;color:#8794b4;margin:4px 0 0 20px">{{ a.venue }} · {{ a.date }}</p>
+              <p style="font-size:0.86rem;color:#5a6a8f;line-height:1.5;margin:6px 0 0 20px">{{ a.detail }}</p>
+              <sc-if value="{{ a.hasLink }}" hint-placeholder-val="{{ false }}">
+                <a href="{{ a.link }}" target="_blank" style="display:inline-block;margin:8px 0 0 20px;font-family:'DM Mono',monospace;font-size:0.68rem;color:#2f4d84;text-decoration:none;border-bottom:1px solid #cfd8ec">Conference site →</a>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <!-- SKILLS + LANGUAGES -->
+      <div style="display:flex;flex-direction:column;gap:32px">
+        <div>
+        <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Skills</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <sc-for list="{{ skills }}" as="s" hint-placeholder-count="5">
+            <span style="font-size:0.84rem;color:#2f4d84;background:#f6f8fc;border:1px solid #dbe2f1;padding:6px 12px;border-radius:2px">{{ s }}</span>
+          </sc-for>
+        </div>
+        </div>
+
+        <div>
+        <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Languages</p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ languages }}" as="l" hint-placeholder-count="2">
+            <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+              <span style="font-size:0.94rem;color:#0A2342;font-weight:500">{{ l.name }}</span>
+              <span style="font-family:'DM Mono',monospace;font-size:0.72rem;color:#8794b4">{{ l.level }}</span>
+            </div>
+          </sc-for>
+        </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#071a33;color:rgba(255,255,255,0.55);padding:30px clamp(20px,4vw,56px);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <span style="font-family:'EB Garamond',serif;font-size:1.05rem;color:rgba(255,255,255,0.82)">Lulwah AlKulaib · <span dir="rtl">لولوه الكليب</span></span>
+    <a href="{{ homeHref }}" style="font-size:0.78rem;font-family:'DM Mono',monospace;color:#7fa0d8;text-decoration:none">← Back to home</a>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1080,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  state = { data: (typeof window !== 'undefined' && window.CV_DATA) ? window.CV_DATA : null };
+
+  componentDidMount() {
+    if (!this.state.data) this._wait();
+  }
+  async _wait() {
+    for (let i = 0; i < 40 && !window.CV_DATA; i++) await new Promise(r => setTimeout(r, 50));
+    if (window.CV_DATA) this.setState({ data: window.CV_DATA });
+  }
+
+  renderVals() {
+    const D = this.state.data;
+    const education = (D ? D.EDUCATION : []).map(e => ({
+      degree: e.degree, school: e.school, dates: e.dates || e.year || '',
+      hasAdvisor: !!e.advisor, advisor: e.advisor || '', advisorUrl: e.advisorUrl || '#',
+      hasDissertation: !!e.dissertation, dissertation: e.dissertation || '#',
+    }));
+    const awards = (D ? (D.AWARDS || []) : []).map(a => ({
+      title: a.title, venue: a.venue, date: a.date, detail: a.detail,
+      hasLink: !!a.link, link: a.link || '#',
+    }));
+    return {
+      homeHref: 'index.html',
+      experience: D ? (D.EXPERIENCE || []) : [],
+      education, awards,
+      skills: D ? (D.SKILLS || []) : [],
+      languages: D ? (D.LANGUAGES || []) : [],
+    };
+  }
+}
+</script>
+</body>
+</html>
