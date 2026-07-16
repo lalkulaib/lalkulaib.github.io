@@ -278,6 +278,14 @@
     ::selection{background:#0A2342;color:#fff}
     @keyframes fadeup{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
     input::placeholder{color:#8794b4}
+    @media (max-width:760px){
+      .grid-hero{grid-template-columns:1fr !important}
+      .grid-2col{grid-template-columns:1fr !important}
+      .arabic-name{margin-left:0 !important;font-size:1.3rem !important;text-align:right !important}
+      .nav-links{overflow-x:auto !important;justify-content:flex-start !important}
+      .nav-links::-webkit-scrollbar{display:none}
+      .brand-name{display:none}
+    }
   </style>
 </helmet>
 
@@ -287,9 +295,9 @@
   <nav style="position:sticky;top:0;z-index:200;background:rgba(255,255,255,0.92);backdrop-filter:blur(10px);border-bottom:1px solid #e4e9f4;height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4vw,56px)">
     <a href="#home" style="display:flex;align-items:center;gap:11px;text-decoration:none">
       <span style="width:34px;height:34px;border-radius:50%;background:#0A2342;color:#fff;display:flex;align-items:center;justify-content:center;font-family:'EB Garamond',serif;font-size:1rem;letter-spacing:0.02em">LA</span>
-      <span style="font-family:'EB Garamond',serif;font-size:1.12rem;font-weight:500;color:#0A2342">Lulwah AlKulaib</span>
+      <span class="brand-name" style="font-family:'EB Garamond',serif;font-size:1.12rem;font-weight:500;color:#0A2342">Lulwah AlKulaib</span>
     </a>
-    <ul style="list-style:none;display:flex;gap:clamp(14px,2.2vw,30px);align-items:center">
+    <ul class="nav-links" style="list-style:none;display:flex;gap:clamp(14px,2.2vw,30px);align-items:center">
       <li><a href="#about" style="text-decoration:none;color:#5a6a8f;font-size:0.78rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase" onMouseOver="{{ navHoverOn }}" onMouseOut="{{ navHoverOff }}">About</a></li>
       <li><a href="#news" style="text-decoration:none;color:#5a6a8f;font-size:0.78rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase" onMouseOver="{{ navHoverOn }}" onMouseOut="{{ navHoverOff }}">News</a></li>
       <li><a href="#publications" style="text-decoration:none;color:#5a6a8f;font-size:0.78rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase" onMouseOver="{{ navHoverOn }}" onMouseOut="{{ navHoverOff }}">Publications</a></li>
@@ -301,7 +309,7 @@
 
   <!-- HERO / ABOUT -->
   <section id="home" style="max-width:1080px;margin:0 auto;padding:clamp(44px,6vw,84px) clamp(20px,4vw,56px) clamp(32px,4vw,56px)">
-    <div id="about" style="display:grid;grid-template-columns:260px 1fr;gap:clamp(28px,4vw,56px);align-items:start">
+    <div id="about" class="grid-hero" style="display:grid;grid-template-columns:260px 1fr;gap:clamp(28px,4vw,56px);align-items:start">
       <div style="display:flex;flex-direction:column;gap:20px">
         <div style="width:100%;aspect-ratio:1/1;border-radius:6px;overflow:hidden;background:#eef2fa;border:1px solid #dbe2f1;display:flex;align-items:center;justify-content:center">
           <img src="assets/avatar.jpg" alt="Lulwah AlKulaib" style="width:100%;height:100%;object-fit:cover" onError="{{ onAvatarError }}" />
@@ -318,11 +326,11 @@
       <div style="min-width:0">
         <p style="font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:#7386ac;margin-bottom:16px">Kuwait University · Computer Science</p>
         <h1 style="font-family:'EB Garamond',serif;font-size:clamp(2.3rem,4.6vw,3.4rem);font-weight:500;line-height:1.06;color:#0A2342;letter-spacing:-0.01em;margin-bottom:6px">{{ name }}</h1>
-        <p style="font-family:'Noto Naskh Arabic',serif;font-size:1.8rem;color:#2f4d84;margin-top:2px;margin-bottom:4px;margin-left:420px;text-align:left" dir="rtl">{{ nameArabic }}</p>
+        <p class="arabic-name" style="font-family:'Noto Naskh Arabic',serif;font-size:1.8rem;color:#2f4d84;margin-top:2px;margin-bottom:4px;margin-left:420px;text-align:left" dir="rtl">{{ nameArabic }}</p>
         <p style="font-size:1.05rem;color:#33456e;font-weight:500;margin-bottom:22px">{{ title }} · <span style="color:#5a6a8f;font-weight:400">{{ affiliation }}</span></p>
         <p style="font-size:1.02rem;color:#33456e;line-height:1.78;margin-bottom:26px;max-width:640px">{{ summary }}</p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:8px">
+        <div class="grid-2col" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:8px">
           <div>
             <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #e4e9f4">Education</p>
             <div style="display:flex;flex-direction:column;gap:14px">
@@ -490,7 +498,7 @@
 
   <!-- CONTACT -->
   <section id="contact" style="background:#0A2342;color:#fff">
-    <div style="max-width:1080px;margin:0 auto;padding:clamp(52px,7vw,84px) clamp(20px,4vw,56px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,64px);align-items:center">
+    <div class="grid-2col" style="max-width:1080px;margin:0 auto;padding:clamp(52px,7vw,84px) clamp(20px,4vw,56px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,64px);align-items:center">
       <div>
         <p style="font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:#7fa0d8;margin-bottom:12px">Get in touch</p>
         <h2 style="font-family:'EB Garamond',serif;font-size:clamp(2rem,3.6vw,2.7rem);font-weight:500;line-height:1.08;margin-bottom:18px">Let's collaborate.</h2>

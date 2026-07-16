@@ -18,6 +18,12 @@
     ::selection{background:#0A2342;color:#fff}
     a{color:#2f4d84}
     a:hover{color:#0A2342}
+    @media (max-width:760px){
+      .grid-2col{grid-template-columns:1fr !important}
+      .grid-edu{grid-template-columns:1fr !important}
+      .grid-edu p{text-align:left !important;padding-top:6px !important}
+      .grid-exp{grid-template-columns:1fr !important}
+    }
   </style>
 </helmet>
 
@@ -43,7 +49,7 @@
     <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Education</p>
     <div style="display:flex;flex-direction:column">
       <sc-for list="{{ education }}" as="e" hint-placeholder-count="3">
-        <div style="display:grid;grid-template-columns:1fr auto;gap:20px;align-items:baseline;padding:16px 0;border-bottom:1px solid #eef2f8">
+        <div class="grid-edu" style="display:grid;grid-template-columns:1fr auto;gap:20px;align-items:baseline;padding:16px 0;border-bottom:1px solid #eef2f8">
           <div style="min-width:0">
             <h4 style="font-family:'EB Garamond',serif;font-size:1.2rem;font-weight:500;color:#0A2342;line-height:1.25">{{ e.degree }}</h4>
             <p style="font-size:0.92rem;color:#2f4d84;font-weight:500;margin-top:2px">{{ e.school }}</p>
@@ -65,7 +71,7 @@
       <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:22px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Professional experience</p>
       <div style="display:flex;flex-direction:column">
         <sc-for list="{{ experience }}" as="x" hint-placeholder-count="7">
-          <div style="display:grid;grid-template-columns:132px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid #eef2f8">
+          <div class="grid-exp" style="display:grid;grid-template-columns:132px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid #eef2f8">
             <div style="padding-top:3px">
               <p style="font-family:'DM Mono',monospace;font-size:0.72rem;color:#8794b4;line-height:1.4">{{ x.dates }}</p>
             </div>
@@ -81,7 +87,7 @@
   </section>
 
   <!-- AWARDS · SKILLS · LANGUAGES (full width) -->
-  <section style="max-width:1080px;margin:0 auto;padding:0 clamp(20px,4vw,56px) clamp(56px,7vw,80px);display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(32px,4vw,52px);align-items:start">
+  <section class="grid-2col" style="max-width:1080px;margin:0 auto;padding:0 clamp(20px,4vw,56px) clamp(56px,7vw,80px);display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(32px,4vw,52px);align-items:start">
       <!-- AWARDS -->
       <div>
         <p style="font-family:'DM Mono',monospace;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:#2f4d84;margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid #e4e9f4">Awards &amp; honors</p>
