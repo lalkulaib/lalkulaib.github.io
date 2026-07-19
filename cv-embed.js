@@ -194,7 +194,7 @@ const PUBLICATIONS = [
 const NEWS = [
   {  date: '2025-08-28',  type: 'award',   title: 'Best Paper Award - ASONAM 2025',   detail: 'Received the Best Paper Award at the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2025) for the paper "TrendScope: A Temporal Hypergraph Framework for Food Trend Discovery."',  source: 'ASONAM' },
   { date: '2023-02-06', type: 'media', title: 'VT News covered our ASONAM 2022 Best Paper', detail: 'Sanghani Center research takes a new approach to analyze depression and anxiety from Reddit posts to provide better care and lower the suicide rate.', source: 'Virginia Tech', link: 'https://sanghani.cs.vt.edu/news/news-person/?psn=3963' },
-  { date: '2022-10-01', type: 'award', title: 'Best Paper Award - ASONAM 2022', detail: 'Recognized among the top submissions at the IEEE/ACM Conference on Advances in Social Networks Analysis and Mining.', source: 'ASONAM' },
+  { date: '2022-10-01', type: 'award', title: 'Best Paper Award - ASONAM 2022', detail: 'Received the Best Paper Award for the paper "Predicting Depression and Anxiety on Reddit: A Multi-task Learning Approach."', source: 'ASONAM' },
   { date: '2018-08-01', type: 'media', title: 'NYT coverage of our “Weaponized Health Communication” paper', detail: 'Russian trolls used the vaccine debate to sow discord, a study found.', source: 'The New York Times', link: 'https://www.nytimes.com/2018/08/23/health/russian-trolls-vaccines.html' },
 ];
 
