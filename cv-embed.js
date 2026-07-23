@@ -199,7 +199,7 @@ const NEWS = [
 ];
 
 const SERVICE = [
-  { role: 'Session Co-Chair', detail: 'IEEE Big Data 2024 AI4Science · ASONAM 2025 & 2026 PhD Track' },
+  { role: 'Session Co-Chair', detail: 'IEEE Big Data 2024 AI4Science · ASONAM 2025 & 2026 PhD Track · IEEE Big Data PSBD 2025'},
   { role: 'Program Committee Member', detail: 'IEEE Big Data MLBD 2024 · MLBD 2025 · AIES 2026 · JCDL (2025-2026) · CIKM 2026 · ICWSM 2026 · WWW 2026' },
   { role: 'Conference Reviewer', detail: 'EMNLP (2021-2024,2026) · IEEE Big Data (2021-2025) · ASONAM (2023-2026) · ArabicNLP 2026 · ACML 2026' },
   { role: 'Journal Reviewer', detail: 'ACM TALLIP · ACM TAKDD · Frontiers in Big Data · Frontiers in AI · ACM TSAS' },
